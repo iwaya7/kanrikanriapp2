@@ -9,7 +9,7 @@ import { VitePWA } from 'vite-plugin-pwa';
  * - "ユーザー名.github.io" リポジトリの場合はルート（/）で公開される
  * - 環境変数 BASE_PATH を指定すればそれを最優先で使う
  */
-const REPO_NAME = 'kanriapp';
+const REPO_NAME = 'kanrikanriapp2';
 
 function resolveBase(): string {
   if (process.env.BASE_PATH) return process.env.BASE_PATH;

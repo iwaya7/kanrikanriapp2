@@ -40,7 +40,7 @@ npm run build
 npm run preview
 ```
 
-表示された URL（例: http://localhost:4173/kanriapp/ ）を開きます。
+表示された URL（例: http://localhost:4173/kanrikanriapp2/ ）を開きます。
 
 ### iPhone の実機で確認する
 
@@ -82,10 +82,10 @@ npm run dev -- --host
 | --- | --- |
 | GitHub Actions でのビルド | リポジトリ名から自動設定（`/<リポジトリ名>/`） |
 | リポジトリ名が `<ユーザー名>.github.io` | `/` |
-| ローカルでの `npm run build` | `vite.config.ts` の `REPO_NAME`（初期値 `kanriapp`） |
+| ローカルでの `npm run build` | `vite.config.ts` の `REPO_NAME`（初期値 `kanrikanriapp2`） |
 | 環境変数 `BASE_PATH` を指定 | その値を優先 |
 
-リポジトリ名を `kanriapp` 以外にする場合は、ローカルでのビルド確認用に `vite.config.ts` の `REPO_NAME` も合わせて変更してください（Actions でのビルドは自動で合います）。
+リポジトリ名を変える場合は、ローカルでのビルド確認用に `vite.config.ts` の `REPO_NAME` も合わせて変更してください（Actions でのビルドは自動で合います）。
 
 ---
 

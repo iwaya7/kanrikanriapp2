@@ -4,7 +4,7 @@ import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
 
-const [, , distDir = 'dist', base = process.env.BASE_PATH || '/kanriapp/', port = '4173'] = process.argv;
+const [, , distDir = 'dist', base = process.env.BASE_PATH || '/kanrikanriapp2/', port = '4173'] = process.argv;
 const types = {
   '.html': 'text/html; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8',
